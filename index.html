@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
+    <!-- normalize css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- titulo -->
+    <title>Portifólio Eduardo</title>
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/acordeon.css">
+    <link rel="stylesheet" href="assets/css/languages.css">
+    <link rel="stylesheet" href="assets/css/portfolio.css">
+    <link rel="stylesheet" href="assets/css/experience.css">
+    <link rel="stylesheet" href="assets/css/skills.css">
+    <!-- fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Open+Sans:wght@300;400;700&family=PT+Sans+Narrow:wght@400;700&family=Roboto:ital,wght@0,100;0,500;1,300;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Montserrat:wght@300&family=Open+Sans:wght@300&family=PT+Sans+Narrow:wght@400;700&family=Roboto:ital,wght@0,100;0,500;1,300;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main class="main ">
+        <header class="header  fade-in">
+            <img src="assets/img/foto-perfil.jpeg" alt="foto de perfil" class="photo">
+            <h1 class="title"> Olá, eu sou Eduardo R Vidal de Negreiros</h1>
+        
+            <div class="informations fade-in">
+                <p class="job"><a href="https://www.linkedin.com/in/eduardo-negreiros/" target="_blank">Desenvolvedor Júnior</a></p>
+                <p class="phone"><a href="tel: (13) 99127-2598">(13) 99127-2598</a></p>
+                <p class="email"><a href="mailto:evidalnegreiros@gmail.com">evidalnegreiros@gmail.com</a></p>
+                <p class="location">São Paulo - SP - Brasil</p>
+            </div>
+        </header>
+
+        <section class="acordeon fade-in">
+            <button class="trigger" type="button">Skills</button>
+
+            <div class="content">
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Ferramentas:</h3>
+                        <ul>
+                            <li> <img src="assets/img/icons/language/js.svg" alt="JavaScript" title="JavaScript"> </li>
+                            <li> <img src="assets/img/icons/language/css.svg" alt="CSS" title="CSS"> </li>
+                            <li> <img src="assets/img/icons/language/html.svg" alt="HTML" title="HTML"> </li>
+                            <li> <img src="assets/img/icons/language/git.svg" alt="Git" title="Git"> </li>
+                            <li> <img src="assets/img/icons/language/github.svg" alt="Github" title="Github"> </li>
+                        </ul>
+                    </section>
+                    <section class="personal">
+                        <h3>Pessoal:</h3>
+                        <ul>
+                           <li>Liderança</li>
+                           <li>Boa Comunicação</li>
+                           <li>Códigos Limpos</li>
+                           <li>Comprometimento</li>
+                           <li>Facilidade em Aprender</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="acordeon fade-in">
+            <button class="trigger" type="button">Idiomas</button>
+
+            <div class="content">
+                <ul class="languages">
+                    <li>Português - fluente</li>
+                    <li>Inglês - intermediário</li>
+                    <li>Japonês - intermediário</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon fade-in">
+            <button class="trigger" type="button">Portfólio</button>
+
+            <div class="content">
+                <ul class="portfolio">
+                    <li> <span class="title github">Pokedex</span></li>
+                    <a href="https://github.com/Edu-RVN/Pokedex" target="_blank">https://github.com/Edu-RVN/Pokedex</a>
+                </ul>
+                <hr>
+                <ul class="portfolio">
+                    <li> <span class="title github">Tela de Personagem</span></li>
+                    <a href="https://github.com/Edu-RVN/Tela-de-personagem" target="_blank">https://github.com/Edu-RVN/Tela-de-personagem</a>
+                </ul>
+                <hr>
+                <ul class="portfolio">
+                    <li> <span class="title github">Fan Page</span></li>
+                    <a href="https://github.com/Edu-RVN/Shuumatsu-No-Walkyrie" target="_blank">https://github.com/Edu-RVN/Shuumatsu-No-Walkyrie</a>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+<script src="assets/js/acordeon.js"></script>
+
+</html>
